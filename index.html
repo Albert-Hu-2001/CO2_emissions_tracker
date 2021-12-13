@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<h1>Welcome!</h1>
+<h1>You can use this website to visualize CO2 emissions for various countries on a metric ton-per-capita basis</h1>
+<h1>Press "submit" to advance</h1>
+<form action="/index" method="post">
+    <p><input type="submit" value="submit"/></p>
+</form>
+{% endblock %}
